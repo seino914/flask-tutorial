@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Flask Web App</h1>
+    <p>使いたい機能を選んでね</p>
+    <form method="POST" action="/pref_quiz">
+      <input type="submit" value="県庁所在地当てクイズ" />
+    </form>
+    <br />
+    <form method="POST" action="/wikipedia">
+      <input type="submit" value="wikipediaで調べもの" />
+    </form>
+    <br />
+    <a href="/logout">ログアウト</a>
+  </body>
+</html>
